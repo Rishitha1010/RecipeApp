@@ -66,13 +66,9 @@ class ViewController: UIViewController {
     
     
     
-    @objc func LoginButtonAction(){
-        
+    @objc func LoginButtonAction() {
         let loginScreen = LoginViewController()
-        //self.navigationController?.pushViewController(loginScreen, animated: true)
-        loginScreen.modalPresentationStyle = .currentContext
-        self.present(loginScreen, animated: true)
-        
+        self.navigationController?.pushViewController(loginScreen, animated: true)
     }
     
     @objc func SignInButtonAction(){

@@ -299,7 +299,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
             self.passwordTextField.text = ""
             print("User acknowledged login success.")
             
-            // Navigate to TableViewController
+            
             let tableVC = TableViewController()
             self.navigationController?.pushViewController(tableVC, animated: true)
         }))

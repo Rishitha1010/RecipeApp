@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         let window = UIWindow(windowScene: windowScene)
         
-        let loginVC = TableViewController()
+        let loginVC = ViewController()
       
         let navigationController = UINavigationController(rootViewController: loginVC)
         window.rootViewController = navigationController // <-- Your entry view controller
